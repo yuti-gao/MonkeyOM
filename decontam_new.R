@@ -1,7 +1,8 @@
-if (!requireNamespace("BiocManager", quietly = TRUE))
+# Created by Yuti Gao
+#if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
-if (!require("decontam")) {
+#if (!require("decontam")) {
   BiocManager::install("decontam", force = TRUE)
 }
 
